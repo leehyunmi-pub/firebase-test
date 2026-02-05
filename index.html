@@ -15,14 +15,16 @@
         import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 
         // 파이어베이스 콘솔에서 복사한 본인의 config를 여기에 넣으세요!
-        const firebaseConfig = {
-            apiKey: "본인의값",
-            authDomain: "본인의값",
-            projectId: "본인의값",
-            storageBucket: "본인의값",
-            messagingSenderId: "본인의값",
-            appId: "본인의값"
-        };
+         const firebaseConfig = {
+    apiKey: "AIzaSyBs3N1H90X5vJ6ZV4Ob1tBxKpNBgsvBCFA",
+    authDomain: "helloworld-c5764.firebaseapp.com",
+    projectId: "helloworld-c5764",
+    storageBucket: "helloworld-c5764.firebasestorage.app",
+    messagingSenderId: "21221215655",
+    appId: "1:21221215655:web:4c54db75a00f99dae6ba82",
+    measurementId: "G-RLEDN7GYG8"
+  };
+
 
         const app = initializeApp(firebaseConfig);
         const auth = getAuth();
